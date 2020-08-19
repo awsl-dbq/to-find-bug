@@ -1,11 +1,13 @@
 # steps of find the bug
 ## start an empty dgraph database
 Terminal A: `./dgraph zero`
+
 Terminal B: `./alpha --lru_mb 1024`
 
 ## load data
 `
 cd data
+
 ../dgraph live -f mock.rdf -s mock.schema
 ` 
 
