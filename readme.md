@@ -5,17 +5,17 @@ Terminal A: `./dgraph zero`
 Terminal B: `./alpha --lru_mb 1024`
 
 ## load data
-`
+```
 cd data
 
 ../dgraph live -f mock.rdf -s mock.schema
-` 
+```
 
 ## run findbug.gql
 
-`
+```
 java -jar dgraph-1.0-SNAPSHOT.jar localhost 9080 findbug.gql 50 3
-`
+```
 
 ## what did my  dgraph-1.0-SNAPSHOT.jar do?
 It take 5 arguments. 
