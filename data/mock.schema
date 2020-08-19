@@ -1,0 +1,5 @@
+<APP#usersettings>:bool  . 
+<APP#usersettings/alias>:string . 
+<APP#usersettings/email>:string . 
+<APP#usersettings/userId>:string @index(fulltext,hash) . 
+<APP#usersettings/nickname>:string . 

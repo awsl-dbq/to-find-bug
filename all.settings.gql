@@ -1,0 +1,7 @@
+query x{
+    settings(func: has(<APP#usersettings>)){
+       uid
+       userId: <APP#usersettings/userId>
+       <APP#usersettings/alias>
+    }
+}

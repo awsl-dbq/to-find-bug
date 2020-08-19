@@ -1,0 +1,8 @@
+query x{
+    settings(func: has(<APP#usersettings>)) 
+    @filter(eq(<APP#usersettings/userId>, <0_key@app.to.findbug.com>)){
+        uid
+       userId: <APP#usersettings/userId>
+       nickname: <APP#usersettings/nickname>
+    }
+}
